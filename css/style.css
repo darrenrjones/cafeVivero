@@ -1,0 +1,46 @@
+body {
+  font-family: Itim;
+  text-align: center;
+  padding: 0.5em;
+  background-color: #D8F2C9;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 1.3em;
+  margin: 0 auto;
+}
+
+#carousel {
+  background-color: pink;
+}
+
+img {
+  height: 34vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.visible > img {
+  overflow: hidden;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  opacity: 1;
+}
+
+.hidden > img {
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+}
+
+#paragraphs {
+  margin-top: 45vw;
+}
+
+/*# sourceMappingURL=style.css.map */
